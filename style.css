@@ -73,3 +73,9 @@ p {
 .computer-score-value {
   color: #d50101;
 }
+
+@media (max-width: 900px) {
+  form {
+    width: 330px;
+  }
+}
