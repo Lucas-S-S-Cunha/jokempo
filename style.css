@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://picsum.photos/1600/900/?landscape");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 390px;
+  height: auto;
+  border-radius: 10px;
+  background: #ffffff;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.jokempo-tittle {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.buttons {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.buttons:hover {
+  opacity: 0.7;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.button-rock {
+  background: #b400b4;
+  rotate: 50%;
+}
+.button-paper {
+  background: #5bfa5b;
+  margin: auto 1vw;
+}
+.button-scisors {
+  background: #7070ff;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.player-score-value {
+  color: #19dd08;
+}
+.computer-score-value {
+  color: #d50101;
+}
